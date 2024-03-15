@@ -210,28 +210,30 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
-      <form action="#">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="262370ed-0e0e-4e4d-a385-878c41c16b67">
         <div class="input-box">
-          <input type="text" placeholder="full name" />
-          <input type="email" placeholder="Email Address" />
+          <input type="text" name="name" placeholder="Full name" required/>
+          <input type="text" name="email" placeholder="Moblie Number" />
         </div>
         <div class="input-box">
-          <input type="number" placeholder="Moblie Number" />
-          <input type="text" placeholder="Email Subject" />
+          <!-- <input type="text" name="message" placeholder="Email Subject" /> -->
+          <!-- <input type="email" placeholder="Email Address" required/> -->
+
         </div>
         <textarea
-          name=""
+          name="message"
           id=""
           cols="30"
           rows="10"
-          placeholder="your Message"
+          placeholder="Your Message"
         ></textarea>
         <input type="submit" value="Sent massaage" class="btn" />
       </form>
-    </section> -->
+    </section>
     <footer class="footer">
       <div class="footer-text">
         <p>Copyright &copy; 2024 by Dawoudtech All Rights Reseved.</p>
